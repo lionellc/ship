@@ -1,0 +1,35 @@
+.searchResultCon {
+  width: 700px;
+  margin: 0 auto;
+  margin-bottom: 200px;
+  .panelTitle {
+    color: #333;
+    position: relative;
+    margin-left: 25px;
+  }
+  .panelTitle::after {
+    content: "";
+    position: absolute;
+    left: -20px;
+    top: 0;
+    display: inline-block;
+    width: 6px;
+    height: 40px;
+    border-radius: 4px; /*no*/
+    background: #6190e8;
+  }
+
+  .searchItemButtonCon {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+  }
+  .searchItemButton {
+    width: 200px;
+  }
+  .searchItemButton1 {
+    margin-left: 20px;
+  }
+}

@@ -1,0 +1,37 @@
+.inputDataCon {
+  width: 100%;
+
+  .inputFormCon {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  .searchButton {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .clearButton {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .inputPicker {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .picker {
+      height: 84px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: start;
+      color: #333;
+      .title {
+        width: 187px;
+      }
+    }
+  }
+}
